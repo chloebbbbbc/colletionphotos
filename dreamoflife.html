@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div>
+    <img id="imgAutoSwitch" width="auto" height="auto" />
+</div>
+<div class="meini">
+    <h1> EXPECTATION </h1>
+
+<script type="text/javascript">
+    var picPaths = ['images/dof/1.jpg','images/dof/2.jpg','images/dof/3.jpg','images/dof/4.jpg','images/dof/5.jpg','images/dof/6.jpg','images/dof/7.jpg','images/dof/8.jpeg','images/dof/9.jpeg','images/dof/10.jpg','images/dof/11.jpg','images/dof/12.jpg','images/dof/13.jpg','images/dof/14.jpg','images/dof/15.jpg','images/dof/16.jpg','images/dof/17.jpg','images/dof/18.jpg','images/dof/19.jpg','images/dof/20.jpg','images/dof/21.jpg','images/dof/22.jpg','images/dof/23.jpg','images/dof/24.jpg','images/dof/25.jpg','images/dof/26.jpg','images/dof/27.jpg'];
+    var curPic = -1;
+    var imgO = new Array();
+    for(i = 0; i < picPaths.length; i ++) {
+        imgO[i] = new Image();
+        imgO[i].src = picPaths[i];
+    }
+
+    function swapImage() {
+        curPic = (++ curPic > picPaths.length - 1)? 0 : curPic;
+        imgCont.src = imgO[curPic].src;
+        setTimeout(swapImage, 10);
+    }
+
+    window.onload=function() {
+        imgCont = document.getElementById('imgAutoSwitch');
+        swapImage();
+    }
+</script>
+
+        

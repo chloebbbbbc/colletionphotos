@@ -1,0 +1,435 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+
+}
+i {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+a {
+  TEXT-DECORATION:none
+}
+.border-lift {
+  padding: 26rem;
+  width: auto;
+  box-shadow: 0 16px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: #000000;
+  border-radius: 0.5rem;
+}
+
+.words{
+  position: fixed;
+  top:76%;
+  left:35%;
+
+}
+
+#one {
+  color:white;
+  display: block;
+  overflow: auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+font-style: bold uppercase;
+margin: 0px;
+  text-align: center;
+  position: absolute; top:80%; left:60%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 0.95s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 20% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.meini
+{
+  font-size:100px;
+  position:absolute;
+  color: white;
+  width:1000px;
+  margin-left:0px;
+  margin-top:0px;
+  text-shadow: 0px 0px 10px blanchedalmond,
+  0px 0px 20px BLACK,
+  0px 0px 30px BLACK,
+  0px 0px 40px BLACK,
+  0px 0px 50px whitesmoke,
+  0px 0px 60px white,
+  0px 0px 70px white;
+}
+
+.absolute {
+  position: absolute;
+  top: 570px;
+  left: 545px;
+  width: 400px;
+  height: 100px;
+}
+
+#pdol {
+  position: absolute;
+  width: auto;
+  height: 83px;
+  left: 1250px;
+  top: 220px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 72px;
+  color: #000000;
+}
+
+#pmcl {
+  position: absolute;
+  width: auto;
+  left: 5.6em;
+  top: 8.6em;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#pwil { 
+  position: relative;
+  left: 0.4em;
+  top: 1.8em;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20em;
+  line-height: 288px;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+#arrow1 {
+  position: relative;
+  width: 40%;
+  height: 0px;
+  left: 4.2em;
+  top: 3.6em;
+  border: 0.02em solid #000000;
+  box-sizing: border-box;
+  transform: rotate(-31.36deg);
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;	
+}
+
+#num1 {
+  position: absolute;
+  width: 58px;
+  height: 56px;
+  left: 662px;
+  top: 316px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num2 {
+  position: absolute;
+  width: 27px;
+  height: 62px;
+  left: 652px;
+  top: 499px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+  opacity: 0.1;
+}
+
+#num3 {
+  position: absolute;
+  width: 27px;
+  height: 62px;
+  left: 428px;
+  top: 635px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num4 {
+  position: absolute;
+  width: 27px;
+  height: 62px;
+  left: 1057px;
+  top: 586px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+  opacity: 0.1;
+}
+
+#num5 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 371px;
+  top: 374px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num6 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 739px;
+  top: 792px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num7 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 574.99px;
+  top: 464.88px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num8 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 825px;
+  top: 252px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num9 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 921px;
+  top: 478px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num10 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 345px;
+  top: 190px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+  opacity: 0.1;
+}
+
+#num11 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 907px;
+  top: 730px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+#num12 {
+  position: absolute;
+  width: 58px;
+  height: 62px;
+  left: 798px;
+  top: 604px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+
+.touch-tip {
+	position:absolute;
+	top:20px;
+	right:18px;
+  text-align:center;
+  /* For test */
+  /* background-color:rgb(234, 188, 202); */ 
+	border-radius:50%;
+	width:45px;
+	height:45px;
+	font-size:14px;
+	line-height:26px;
+	cursor:default
+}
+
+.touch-tip:hover p {
+	display:block;transform-origin:100% 0%;
+	-webkit-animation:fadeIn 0.3s ease-in-out;animation:fadeIn 0.3s ease-in-out;
+}
+
+.touch-tip p {
+	display:none;text-align:left;
+	background-color:#1E2021;
+	padding:20px;
+	width:300px;position:absolute;
+	border-radius:3px;box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+	right:-4px;
+	color:#FFF;
+	font-size:13px;
+  line-height:1.4;
+}
+.touch-tip p:before {
+	position:absolute;
+  content:'';
+  width:0;
+	height:0;border:6px solid transparent;
+	border-bottom-color:#1E2021;
+  right:10px;top:-12px;
+}
+
+.touch-tip p:after {
+	width:100%;
+	height:40px;
+	content:'';
+	position:absolute;
+	top:-40px;
+	left:0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  #pdol {
+    position: absolute;
+    width: 100px;
+    height: 450;
+    left: 195px;
+    top: 372px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: #000000;
+  }
+  
+  #pmcl {
+    position: absolute;
+    width: 100px;
+    height: 450px;
+    left: 175px;
+    top: 402px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+  }
+  
+  #pwil { 
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: #000000;
+  }
+  
+  #arrow1 {
+    position: absolute;
+    width: 90px;
+    height: 0px;
+    left: 95px;
+    top: 400px;
+    border: 0.3px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(-31.36deg);
+  }
+
+  
+}

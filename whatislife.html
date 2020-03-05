@@ -1,0 +1,47 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<div id="one">"What we are looking for...
+</div>
+<div class="border-lift">
+    <img class="sslides" src="images/wil/1.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/2.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/3.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/4.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/5.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/6.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/7.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/8.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/9.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/10.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/11.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/12.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/13.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/14.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/15.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/16.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/17.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/18.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/19.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/20.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/21.jpg" style="width:100%">
+    <img class="sslides" src="images/wil/22.jpg" style="width:100%">
+</div>
+  
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("sslides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); 
+  }
+</script>
+  
